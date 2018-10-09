@@ -68,7 +68,7 @@ namespace LiveStreamFacebook.Models
 
             ffmpeg.StartInfo.FileName = "cmd.exe";
             ffmpeg.StartInfo.WorkingDirectory = "D:\\";
-            ffmpeg.StartInfo.Arguments = "/k " + ffmpegPath + " " + ffmpegParams;
+            ffmpeg.StartInfo.Arguments = "/k " +  ffmpegPath + " " + ffmpegParams  ;
             ffmpeg.Start();
 
             ffmpeg.WaitForExit();
